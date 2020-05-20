@@ -211,7 +211,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/board_game.jpg") top center;
   background-size: cover;
 }
 
@@ -286,6 +286,7 @@ section {
 
 .section-title {
   padding-bottom: 30px;
+  text-align: center;
 }
 
 .section-title h2 {
@@ -305,7 +306,7 @@ section {
   height: 3px;
   background: #149ddd;
   bottom: 0;
-  left: 0;
+  left: 47.5%;
 }
 
 .section-title p {
@@ -318,6 +319,12 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
+  color: #173b6c;
+}
+
+.about .content h4 {
+  font-weight: 700;
+  font-size: 22px;
   color: #173b6c;
 }
 
@@ -663,6 +670,13 @@ section {
 }
 
 .testimonials .testimonial-item h4 {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #111;
+}
+
+.testimonials .testimonial-item h4 {
   font-size: 14px;
   color: #999;
   margin: 0;
@@ -1001,6 +1015,14 @@ section {
 
 .portfolio-details .portfolio-info h3 {
   font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.portfolio-details .portfolio-info h4 {
+  font-size: 18px;
   font-weight: 400;
   margin-bottom: 20px;
   padding-bottom: 20px;
