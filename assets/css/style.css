@@ -298,6 +298,16 @@ section {
   color: #173b6c;
 }
 
+.devicons {
+  font-size: 4rem;
+}
+
+.skill-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
 .section-title h2::after {
   content: '';
   position: absolute;
