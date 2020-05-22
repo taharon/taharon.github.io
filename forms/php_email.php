@@ -1,11 +1,12 @@
 <?php 
-if(isset($_POST['submit'])){
+if(isset($_GET['submit'])){
+    print_r($_GET);
     $to = "t.aharon.25@gmail.com"; // this is your Email address
-    $from = $_POST['email']; // this is the sender's Email address
-    $full_name = $_POST['name'];
-    $subject = $_POST['subject'];
-    $message = $_POST['message'];
-//    $message2 = "Here is a copy of your message " . $full_name . "\n\n" . $_POST['message'];
+    $from = $_GET['email']; // this is the sender's Email address
+    $full_name = $_GET['name'];
+    $subject = $_GET['subject'];
+    $message = $_GET['message'];
+//    $message2 = "Here is a copy of your message " . $full_name . "\n\n" . $_GET['message'];
 
     $headers = "From:" . $from;
     $headers2 = "From:" . $to;
